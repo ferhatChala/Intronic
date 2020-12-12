@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>S'inscrire dans l event seulment</title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="main">
+
+        <div class="container" id="foropc">
+            <form method="POST" class="appointment-form " id="appointment-form">
+                <h2>inscription de participation seulment </h2>
+                <div class="form-group-1">
+                
+                    <input type="text" name="name" id="name" placeholder="Nom" required />
+                    <input type="text" name="prenom" id="prenom" placeholder="Prénom" required />
+                    <input type="email" name="email" id="email" placeholder="Email" required />
+                    <input type="text" name="spe" id="spe" placeholder="Spécialité" required />
+                    <input type="text" name="eta" id="eta" placeholder="établissement" required />
+                    <input type="text" name="eta" id="eta" placeholder="Année d'étude " required />
+                    <div class="select-list">
+
+                        
+                        <select name="course_type" id="course_type">
+                          
+                            <option slected value="">A quell formation voulez-vous assister ?</option>
+                            <option value="society">Understanding umbeded</option>
+                            <option value="language">MicroControllers</option>
+                            <option value="language">Machine Learning</option>
+                            <option value="language">Tensorflow</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group-2">
+                   
+                    <input type="text" name="eta" id="eta" placeholder="Qu'est ce que to motive pour assister a ces formation ?" required />
+                    <input type="text" name="eta" id="eta" placeholder="Vos remarque ou quelque chose à ajouter ? " required />
+                </div>
+                
+                <div class="form-submit">
+                    <input type="submit" name="submit" id="submit" class="submit" value="submit" />
+                    
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+    <!-- JS -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>
